@@ -1,0 +1,87 @@
+<p>cotizador works!</p>
+<body onload="myFunction();">
+
+    <div class="cotizador">
+      
+        <div class="dropdown">
+            <label for="proposito" class="label-coti special-label">Elige 1</label><br>
+            <div class="multi-select">
+                <label class="toggle-open" for="toggle-open">Seleccionar <i class="fas fa-angle-down"></i></label>
+                <input type="checkbox" id="toggle-open">
+                <ul class="multi-select-options">
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="states" id="check-1" value="70"><span>Validar</span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="states" id="check-2" value="70"><span>Hacer</span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="states" id="check-3" value="70"><span>Evaluar</span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="states" id="check-4" value="70"><span>Estimar</span></label>
+                    </li>
+                </ul>
+            </div>
+            <ul class="multi-selected"></ul>
+            <div class="multiseleccionados">
+                <span id="ans-1" onclick="desmarcarspan1();">Plan x</span>
+                <span id="ans-2" onclick="desmarcarspan2();">Valoración x</span>
+                <span id="ans-3" onclick="desmarcarspan3();">Capacidad x</span>
+                <span id="ans-4" onclick="desmarcarspan4();">Necesidades x</span>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <label for="tipo-modelo" class="label-coti special-label-2">Elige 2</label><br>
+            <div class="multi-select-2">
+                <label class="toggle-open-2" for="toggle-open-2">Seleccionar <i class="fas fa-angle-down"></i></label>
+                <input type="checkbox" id="toggle-open-2">
+                <ul class="multi-select-options-2">
+                    <li><label><input class="itemTotalNeto" type="radio" name="plan" value="49"><span>Start</span></label>
+                    </li>
+                   
+                    <li><label><input class="itemTotalNeto" type="radio" name="plan" value="245"><span>Enter</span></label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <label for="proposito" class="label-coti">Elige 3</label>
+            <div class="multi-select-3">
+                <label class="toggle-open-3" for="toggle-open-3">Seleccionar <i class="fas fa-angle-down"></i></label>
+                <input type="checkbox" id="toggle-open-3">
+                <ul class="multi-select-options-3">
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-5" value="105"><span>Probar</span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-6" value="52"><span>Constru </span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-7" value="35"><span>Analisis</span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-8" value="35"><span>Panel</span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-9" value="35"><span>Calculador </span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-10" value="35"><span>Resumen </span></label>
+                    </li>
+                    <li><label><input class="itemTotalNeto" type="checkbox" name="caracteristicas" id="check-11" value="52"><span>Herramienta </span></label>
+                    </li>
+                </ul>
+            </div>
+            <ul class="multi-selected"></ul>
+            <div class="multiseleccionados">
+                <span id="ans-5" onclick="desmarcarspan5();">Modelos  x</span>
+                <span id="ans-6" onclick="desmarcarspan6();">Escenarios x</span>
+                <span id="ans-7" onclick="desmarcarspan7();">Sensibilidad x</span>
+                <span id="ans-8" onclick="desmarcarspan8();">Panel x</span>
+                <span id="ans-9" onclick="desmarcarspan9();">Indicadores x</span>
+                <span id="ans-10" onclick="desmarcarspan10();">Market x</span>
+            </div>
+        </div>
+    
+    
+        <div class="finalprice">
+            <h2>$<span id="totalGeneral"> 0 </span> USD</h2>
+            <a class="btn-your-model-cotizador" href="#">Comprar</a>
+    <p>O <a href="#precios">elige</a> </p>
+        </div>
+    </div>
+      
+      </body>

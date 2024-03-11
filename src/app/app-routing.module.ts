@@ -47,6 +47,26 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },  
+  {
+    path: 'hexisstore1',
+    loadChildren: () => import('./hexisstore1/hexisstore1.module').then(m => m.Hexisstore1Module)
+  },  
+  {
+    path: 'hexisstore2',
+    loadChildren: () => import('./hexisstore2/hexisstore2.module').then(m => m.Hexisstore2Module)
+  },  
+  {
+    path: 'hexisstore3',
+    loadChildren: () => import('./hexisstore3/hexisstore3.module').then(m => m.Hexisstore3Module)
+  },  
+  {
+    path: 'hexisstore4',
+    loadChildren: () => import('./hexisstore4/hexisstore4.module').then(m => m.Hexisstore4Module)
+  },  
+  {
+    path: 'cotizador',
+    loadChildren: () => import('./cotizador/cotizador.module').then(m => m.CotizadorModule)
+  }, 
 
   {
     path: '',

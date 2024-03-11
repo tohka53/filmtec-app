@@ -14,6 +14,11 @@ import { TeckstoreComponent } from './teckstore/components/teckstore/teckstore.c
 import { HomeComponent } from './home/components/home/home.component';
 import { RouterLink } from '@angular/router';
 import { MarcasComponent } from './marcas/components/marcas/marcas.component';
+import { Hexisstore1Component } from './hexisstore1/components/hexisstore1/hexisstore1.component';
+import { Hexisstore2Component } from './hexisstore2/components/hexisstore2/hexisstore2.component';
+import { Hexisstore3Component } from './hexisstore3/components/hexisstore3/hexisstore3.component';
+import { Hexisstore4Component } from './hexisstore4/components/hexisstore4/hexisstore4.component';
+import { CotizadorComponent } from './cotizador/components/cotizador/cotizador.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { MarcasComponent } from './marcas/components/marcas/marcas.component';
     SuntekstoreComponent,
     TeckstoreComponent,
     HomeComponent,
-    MarcasComponent
+    MarcasComponent,
+    Hexisstore1Component,
+    Hexisstore2Component,
+    Hexisstore3Component,
+    Hexisstore4Component,
+    CotizadorComponent
    
   ],
   imports: [
