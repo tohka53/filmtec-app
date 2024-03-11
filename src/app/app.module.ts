@@ -19,6 +19,8 @@ import { Hexisstore2Component } from './hexisstore2/components/hexisstore2/hexis
 import { Hexisstore3Component } from './hexisstore3/components/hexisstore3/hexisstore3.component';
 import { Hexisstore4Component } from './hexisstore4/components/hexisstore4/hexisstore4.component';
 import { CotizadorComponent } from './cotizador/components/cotizador/cotizador.component';
+import { SalesComponent } from './sales/components/sales/sales.component';
+import { NosotrosComponent } from './nosotros/components/nosotros/nosotros.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { CotizadorComponent } from './cotizador/components/cotizador/cotizador.c
     Hexisstore2Component,
     Hexisstore3Component,
     Hexisstore4Component,
-    CotizadorComponent
+    CotizadorComponent,
+    SalesComponent,
+    NosotrosComponent
    
   ],
   imports: [
