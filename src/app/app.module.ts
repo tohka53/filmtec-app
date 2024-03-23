@@ -21,6 +21,18 @@ import { Hexisstore4Component } from './hexisstore4/components/hexisstore4/hexis
 import { CotizadorComponent } from './cotizador/components/cotizador/cotizador.component';
 import { SalesComponent } from './sales/components/sales/sales.component';
 import { NosotrosComponent } from './nosotros/components/nosotros/nosotros.component';
+import { Detalle1Component } from './detalle1/components/detalle1/detalle1.component';
+import { HX20G04SComponent } from './HX20G04S/components/hx20-g04-s/hx20-g04-s.component';
+import { HX20G12BComponent } from './HX20G12B/components/hx20-g12-b/hx20-g12-b.component';
+import { HX20PCABComponent } from './HX20PCAB/components/hx20-pcab/hx20-pcab.component';
+import { Detalle2Component } from './detalle2/components/detalle2/detalle2.component';
+import { Detalle3Component } from './detalle3/components/detalle3/detalle3.component';
+import { Detalle4Component } from './detalle4/components/detalle4/detalle4.component';
+import { Detalle5Component } from './detalle5/components/detalle5/detalle5.component';
+import { Detalle6Component } from './detalle6/components/detalle6/detalle6.component';
+import { Detalle7Component } from './detalle7/components/detalle7/detalle7.component';
+import { Detalle8Component } from './detalle8/components/detalle8/detalle8.component';
+import { Detalle9Component } from './detalle9/components/detalle9/detalle9.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +52,19 @@ import { NosotrosComponent } from './nosotros/components/nosotros/nosotros.compo
     Hexisstore4Component,
     CotizadorComponent,
     SalesComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    Detalle1Component,
+    HX20G04SComponent,
+    HX20G12BComponent,
+    HX20PCABComponent,
+    Detalle2Component,
+    Detalle3Component,
+    Detalle4Component,
+    Detalle5Component,
+    Detalle6Component,
+    Detalle7Component,
+    Detalle8Component,
+    Detalle9Component
    
   ],
   imports: [

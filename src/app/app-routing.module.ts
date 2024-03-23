@@ -72,6 +72,62 @@ const routes: Routes = [
     path: 'sales',
     loadChildren: () => import('./sales/sales.module').then(m => m.SalesModule),
   }, 
+
+  {
+    path: 'detelle',
+    loadChildren: () => import('./detalle1/detalle1.module').then(m => m.Detalle1Module)
+  }, 
+  {
+    path: 'HX20G04S',
+    loadChildren: () => import('./HX20G04S/hx20-g04-s.module').then(m => m.HX20G04SModule)
+  }, 
+  {
+    path: 'HX20G12B',
+    loadChildren: () => import('./HX20G12B/hx20-g12-b.module').then(m => m.HX20G12BModule)
+  },  
+  {
+    path: 'HX20PCAB',
+    loadChildren: () => import('./HX20PCAB/hx20-pcab.module').then(m => m.HX20PCABModule)
+  }, 
+  {
+    path: 'HX20R05B',
+    loadChildren: () => import('./detalle2/detalle2.module').then(m => m.Detalle2Module)
+  }, 
+  {
+    path: 'HX20VAVM',
+    loadChildren: () => import('./detalle3/detalle3.module').then(m => m.Detalle3Module)
+  }, 
+
+  {
+    path: 'HX20VMIM',
+    loadChildren: () => import('./detalle4/detalle4.module').then(m => m.Detalle4Module)
+  }, 
+  {
+    path: 'HX30BASILB',
+    loadChildren: () => import('./detalle5/detalle5.module').then(m => m.Detalle5Module)
+  }, 
+
+  {
+    path: 'HX30BNCB',
+    loadChildren: () => import('./detalle6/detalle6.module').then(m => m.Detalle6Module)
+  }, 
+
+  {
+    path: 'HX30CANPEB',
+    loadChildren: () => import('./detalle7/detalle7.module').then(m => m.Detalle7Module)
+  }, 
+  {
+    path: 'HX30G446B',
+    loadChildren: () => import('./detalle8/detalle8.module').then(m => m.Detalle8Module)
+  }, 
+  {
+    path: 'HX30RGOM',
+    loadChildren: () => import('./detalle9/detalle9.module').then(m => m.Detalle9Module)
+  }, 
+
+
+
+  
   {
     path: '',
     redirectTo: 'home',
