@@ -125,6 +125,44 @@ const routes: Routes = [
     loadChildren: () => import('./detalle9/detalle9.module').then(m => m.Detalle9Module)
   }, 
 
+  {
+    path: 'HX30SCH03S',
+    loadChildren: () => import('./detalle10/detalle10.module').then(m => m.Detalle10Module)
+  }, 
+  {
+    path: 'HX30SCH07B',
+    loadChildren: () => import('./detalle11/detalle11.module').then(m => m.Detalle11Module)
+  }, 
+  {
+    path: 'HX30SCH12S',
+    loadChildren: () => import('./detalle12/detalle12.module').then(m => m.Detalle12Module)
+  }, 
+  {
+    path: 'HX20165B',
+    loadChildren: () => import('./detalle13/detalle13.module').then(m => m.Detalle13Module)
+  }, 
+
+  {
+    path: 'HX20428B',
+    loadChildren: () => import('./detalle14/detalle14.module').then(m => m.Detalle14Module)
+  }, 
+  {
+    path: 'HX20468B',
+    loadChildren: () => import('./detalle15/detalle15.module').then(m => m.Detalle15Module)
+  }, 
+  {
+    path: 'HX20613B',
+    loadChildren: () => import('./detalle16/detalle16.module').then(m => m.Detalle16Module)
+  }, 
+  {
+    path: 'HX20614B',
+    loadChildren: () => import('./detalle17/detalle17.module').then(m => m.Detalle17Module)
+  }, 
+
+
+
+
+
 
 
   

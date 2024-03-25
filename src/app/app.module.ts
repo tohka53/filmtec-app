@@ -33,6 +33,14 @@ import { Detalle6Component } from './detalle6/components/detalle6/detalle6.compo
 import { Detalle7Component } from './detalle7/components/detalle7/detalle7.component';
 import { Detalle8Component } from './detalle8/components/detalle8/detalle8.component';
 import { Detalle9Component } from './detalle9/components/detalle9/detalle9.component';
+import { Detalle10Component } from './detalle10/components/detalle10/detalle10.component';
+import { Detalle11Component } from './detalle11/components/detalle11/detalle11.component';
+import { Detalle12Component } from './detalle12/components/detalle12/detalle12.component';
+import { Detalle13Component } from './detalle13/components/detalle13/detalle13.component';
+import { Detalle14Component } from './detalle14/components/detalle14/detalle14.component';
+import { Detalle15Component } from './detalle15/components/detalle15/detalle15.component';
+import { Detalle16Component } from './detalle16/components/detalle16/detalle16.component';
+import { Detalle17Component } from './detalle17/components/detalle17/detalle17.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +72,15 @@ import { Detalle9Component } from './detalle9/components/detalle9/detalle9.compo
     Detalle6Component,
     Detalle7Component,
     Detalle8Component,
-    Detalle9Component
+    Detalle9Component,
+    Detalle10Component,
+    Detalle11Component,
+    Detalle12Component,
+    Detalle13Component,
+    Detalle14Component,
+    Detalle15Component,
+    Detalle16Component,
+    Detalle17Component
    
   ],
   imports: [
