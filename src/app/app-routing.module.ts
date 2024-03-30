@@ -159,6 +159,29 @@ const routes: Routes = [
     loadChildren: () => import('./detalle17/detalle17.module').then(m => m.Detalle17Module)
   }, 
 
+  {
+    path: 'HX20615B',
+    loadChildren: () => import('./detalle18/detalle18.module').then(m => m.Detalle18Module)
+  }, 
+  {
+    path: 'HX20890B',
+    loadChildren: () => import('./detalle19/detalle19.module').then(m => m.Detalle19Module)
+  }, 
+  {
+    path: 'HX20890W',
+    loadChildren: () => import('./detalle20/detalle20.module').then(m => m.Detalle20Module)
+  }, 
+  {
+    path: 'HX20905M',
+    loadChildren: () => import('./detalle21/detalle21.module').then(m => m.Detalle21Module)
+  }, 
+  {
+    path: 'HX20990M',
+    loadChildren: () => import('./detalle22/detalle22.module').then(m => m.Detalle22Module)
+  }, 
+
+
+
 
 
 

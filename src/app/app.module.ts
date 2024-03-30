@@ -41,6 +41,11 @@ import { Detalle14Component } from './detalle14/components/detalle14/detalle14.c
 import { Detalle15Component } from './detalle15/components/detalle15/detalle15.component';
 import { Detalle16Component } from './detalle16/components/detalle16/detalle16.component';
 import { Detalle17Component } from './detalle17/components/detalle17/detalle17.component';
+import { Detalle18Component } from './detalle18/components/detalle18/detalle18.component';
+import { Detalle19Component } from './detalle19/components/detalle19/detalle19.component';
+import { Detalle20Component } from './detalle20/components/detalle20/detalle20.component';
+import { Detalle21Component } from './detalle21/components/detalle21/detalle21.component';
+import { Detalle22Component } from './detalle22/components/detalle22/detalle22.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +85,12 @@ import { Detalle17Component } from './detalle17/components/detalle17/detalle17.c
     Detalle14Component,
     Detalle15Component,
     Detalle16Component,
-    Detalle17Component
+    Detalle17Component,
+    Detalle18Component,
+    Detalle19Component,
+    Detalle20Component,
+    Detalle21Component,
+    Detalle22Component
    
   ],
   imports: [
