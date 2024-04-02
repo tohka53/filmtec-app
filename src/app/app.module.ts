@@ -46,6 +46,15 @@ import { Detalle19Component } from './detalle19/components/detalle19/detalle19.c
 import { Detalle20Component } from './detalle20/components/detalle20/detalle20.component';
 import { Detalle21Component } from './detalle21/components/detalle21/detalle21.component';
 import { Detalle22Component } from './detalle22/components/detalle22/detalle22.component';
+import { HexishomeComponent } from './hexishome/components/hexishome/hexishome.component';
+import { Sdetalle1Component } from './sdetalle1/components/sdetalle1/sdetalle1.component';
+import { Sdetalle2Component } from './sdetalle2/components/sdetalle2/sdetalle2.component';
+import { Sdetalle3Component } from './sdetalle3/components/sdetalle3/sdetalle3.component';
+import { Sdetalle4Component } from './sdetalle4/components/sdetalle4/sdetalle4.component';
+import { Sdetalle5Component } from './sdetalle5/components/sdetalle5/sdetalle5.component';
+import { Sdetalle6Component } from './sdetalle6/components/sdetalle6/sdetalle6.component';
+import { Sdetalle7Component } from './sdetalle7/components/sdetalle7/sdetalle7.component';
+import { Sdetalle8Component } from './sdetalle8/components/sdetalle8/sdetalle8.component';
 
 @NgModule({
   declarations: [
@@ -90,7 +99,16 @@ import { Detalle22Component } from './detalle22/components/detalle22/detalle22.c
     Detalle19Component,
     Detalle20Component,
     Detalle21Component,
-    Detalle22Component
+    Detalle22Component,
+    HexishomeComponent,
+    Sdetalle1Component,
+    Sdetalle2Component,
+    Sdetalle3Component,
+    Sdetalle4Component,
+    Sdetalle5Component,
+    Sdetalle6Component,
+    Sdetalle7Component,
+    Sdetalle8Component
    
   ],
   imports: [

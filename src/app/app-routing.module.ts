@@ -179,9 +179,45 @@ const routes: Routes = [
     path: 'HX20990M',
     loadChildren: () => import('./detalle22/detalle22.module').then(m => m.Detalle22Module)
   }, 
+  {
+    path: 'hexishome',
+    loadChildren: () => import('./hexishome/hexishome.module').then(m => m.HexishomeModule)
+  }, 
 
+  {
+    path: 'sdetall1',
+    loadChildren: () => import('./sdetalle1/sdetalle1.module').then(m => m.Sdetalle1Module)
+  }, 
+  {
+    path: 'sdetall2',
+    loadChildren: () => import('./sdetalle2/sdetalle2.module').then(m => m.Sdetalle2Module)
+  }, 
+  {
+    path: 'sdetall3',
+    loadChildren: () => import('./sdetalle3/sdetalle3.module').then(m => m.Sdetalle3Module)
+  }, 
+  {
+    path: 'sdetall4',
+    loadChildren: () => import('./sdetalle4/sdetalle4.module').then(m => m.Sdetalle4Module)
+  }, 
+  {
+    path: 'sdetall5',
+    loadChildren: () => import('./sdetalle5/sdetalle5.module').then(m => m.Sdetalle5Module)
+  }, 
+  {
+    path: 'sdetall6',
+    loadChildren: () => import('./sdetalle6/sdetalle6.module').then(m => m.Sdetalle6Module)
+  }, 
+  
 
-
+  {
+    path: 'sdetall7',
+    loadChildren: () => import('./sdetalle7/sdetalle7.module').then(m => m.Sdetalle7Module)
+  }, 
+  {
+    path: 'sdetall8',
+    loadChildren: () => import('./sdetalle8/sdetalle8.module').then(m => m.Sdetalle8Module)
+  }, 
 
 
 
