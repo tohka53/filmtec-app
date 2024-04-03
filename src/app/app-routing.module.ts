@@ -64,6 +64,14 @@ const routes: Routes = [
     loadChildren: () => import('./hexisstore4/hexisstore4.module').then(m => m.Hexisstore4Module)
   },  
   {
+    path: 'hexisstore5',
+    loadChildren: () => import('./hexisstore5/hexisstore5.module').then(m => m.Hexisstore5Module)
+  },  
+  {
+    path: 'hexisstore6',
+    loadChildren: () => import('./hexisstore6/hexisstore6.module').then(m => m.Hexisstore6Module)
+  },  
+  {
     path: 'cotizador',
     loadChildren: () => import('./cotizador/cotizador.module').then(m => m.CotizadorModule)
   }, 
@@ -218,13 +226,107 @@ const routes: Routes = [
     path: 'sdetall8',
     loadChildren: () => import('./sdetalle8/sdetalle8.module').then(m => m.Sdetalle8Module)
   }, 
+  {
+    path: 'suntekstore1',
+    loadChildren: () => import('./suntekstore1/suntekstore1.module').then(m => m.Suntekstore1Module)
+  }, 
+
+  {
+    path: 'sdetall9',
+    loadChildren: () => import('./sdetalle9/sdetalle9.module').then(m => m.Sdetalle9Module)
+  }, 
+
+  {
+    path: 'sdetall10',
+    loadChildren: () => import('./sdetalle10/sdetalle10.module').then(m => m.Sdetalle10Module)
+  }, 
+
+  {
+    path: 'sdetall11',
+    loadChildren: () => import('./sdetalle11/sdetalle11.module').then(m => m.Sdetalle11Module)
+  }, 
+
+  {
+    path: 'sdetall12',
+    loadChildren: () => import('./sdetalle12/sdetalle12.module').then(m => m.Sdetalle12Module)
+  }, 
+ 
+  
+
+  {
+    path: 'E3829B',
+    loadChildren: () => import('./heco1/heco1.module').then(m => m.Heco1Module)
+  }, 
+  {
+    path: 'E3829M',
+    loadChildren: () => import('./heco2/heco2.module').then(m => m.Heco2Module)
+  }, 
+  
+  
+  
+  {
+    path: 'E3889B',
+    loadChildren: () => import('./heco3/heco3.module').then(m => m.Heco3Module)
+  }, 
+
+  
+  {
+    path: 'E3889M',
+    loadChildren: () => import('./heco4/heco4.module').then(m => m.Heco4Module)
+  }, 
+
+ 
+
+  {
+    path: 'E3110B',
+    loadChildren: () => import('./heco5/heco5.module').then(m => m.Heco5Module)
+  }, 
+  {
+    path: 'E3151B',
+    loadChildren: () => import('./heco6/heco6.module').then(m => m.Heco6Module)
+  }, 
+  {
+    path: 'E3485B',
+    loadChildren: () => import('./heco7/heco7.module').then(m => m.Heco7Module)
+  }, 
+  {
+    path: 'E3ELEB',
+    loadChildren: () => import('./heco8/heco8.module').then(m => m.Heco8Module)
+  }, 
+  
 
 
+  {
+    path: 'E3297B',
+    loadChildren: () => import('./heco9/heco9.module').then(m => m.Heco9Module)
+  }, 
+  {
+    path: 'E3340B',
+    loadChildren: () => import('./heco10/heco10.module').then(m => m.Heco10Module)
+  }, 
+  {
+    path: 'E3430B',
+    loadChildren: () => import('./heco11/heco11.module').then(m => m.Heco11Module)
+  }, 
+  {
+    path: 'E3GIVMV2',
+    loadChildren: () => import('./hcri1/hcri1.module').then(m => m.Hcri1Module)
+  }, 
 
+  {
+    path: 'HEX901',
+    loadChildren: () => import('./hcri2/hcri2.module').then(m => m.Hcri2Module)
+  }, 
 
+  {
+    path: 'HEX902',
+    loadChildren: () => import('./hcri2/hcri2.module').then(m => m.Hcri2Module)
+  }, 
 
 
   
+
+
   {
     path: '',
     redirectTo: 'home',

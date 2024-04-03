@@ -55,6 +55,31 @@ import { Sdetalle5Component } from './sdetalle5/components/sdetalle5/sdetalle5.c
 import { Sdetalle6Component } from './sdetalle6/components/sdetalle6/sdetalle6.component';
 import { Sdetalle7Component } from './sdetalle7/components/sdetalle7/sdetalle7.component';
 import { Sdetalle8Component } from './sdetalle8/components/sdetalle8/sdetalle8.component';
+import { Suntekstore1Component } from './suntekstore1/components/suntekstore1/suntekstore1.component';
+import { Sdetalle9Component } from './sdetalle9/components/sdetalle9/sdetalle9.component';
+import { Sdetalle10Component } from './sdetalle10/components/sdetalle10/sdetalle10.component';
+import { Sdetalle11Component } from './sdetalle11/components/sdetalle11/sdetalle11.component';
+import { Sdetalle12Component } from './sdetalle12/components/sdetalle12/sdetalle12.component';
+import { Heco1Component } from './heco1/components/heco1/heco1.component';
+import { Heco2Component } from './heco2/components/heco2/heco2.component';
+import { Heco3Component } from './heco3/components/heco3/heco3.component';
+import { Heco4Component } from './heco4/components/heco4/heco4.component';
+import { Heco5Component } from './heco5/components/heco5/heco5.component';
+import { Heco6Component } from './heco6/components/heco6/heco6.component';
+import { Heco7Component } from './heco7/components/heco7/heco7.component';
+import { Heco8Component } from './heco8/components/heco8/heco8.component';
+import { Heco9Component } from './heco9/components/heco9/heco9.component';
+import { Heco10Component } from './heco10/components/heco10/heco10.component';
+import { Heco11Component } from './heco11/components/heco11/heco11.component';
+import { Hexisstore5Component } from './hexisstore5/components/hexisstore5/hexisstore5.component';
+import { Hcri1Component } from './hcri1/components/hcri1/hcri1.component';
+import { Hexisstore6Component } from './hexisstore6/components/hexisstore6/hexisstore6.component';
+import { Hcri2Component } from './hcri2/components/hcri2/hcri2.component';
+import { Hcri3Component } from './hcri3/components/hcri3/hcri3.component';
+import { Hcf1Component } from './hcf1/components/hcf1/hcf1.component';
+import { Hcf2Component } from './hcf2/components/hcf2/hcf2.component';
+import { Hcf3Component } from './hcf3/components/hcf3/hcf3.component';
+import { Hcf4Component } from './hcf4/components/hcf4/hcf4.component';
 
 @NgModule({
   declarations: [
@@ -108,7 +133,32 @@ import { Sdetalle8Component } from './sdetalle8/components/sdetalle8/sdetalle8.c
     Sdetalle5Component,
     Sdetalle6Component,
     Sdetalle7Component,
-    Sdetalle8Component
+    Sdetalle8Component,
+    Suntekstore1Component,
+    Sdetalle9Component,
+    Sdetalle10Component,
+    Sdetalle11Component,
+    Sdetalle12Component,
+    Heco1Component,
+    Heco2Component,
+    Heco3Component,
+    Heco4Component,
+    Heco5Component,
+    Heco6Component,
+    Heco7Component,
+    Heco8Component,
+    Heco9Component,
+    Heco10Component,
+    Heco11Component,
+    Hexisstore5Component,
+    Hcri1Component,
+    Hexisstore6Component,
+    Hcri2Component,
+    Hcri3Component,
+    Hcf1Component,
+    Hcf2Component,
+    Hcf3Component,
+    Hcf4Component
    
   ],
   imports: [
