@@ -80,6 +80,7 @@ import { Hcf1Component } from './hcf1/components/hcf1/hcf1.component';
 import { Hcf2Component } from './hcf2/components/hcf2/hcf2.component';
 import { Hcf3Component } from './hcf3/components/hcf3/hcf3.component';
 import { Hcf4Component } from './hcf4/components/hcf4/hcf4.component';
+import { Hexisstore7Component } from './hexisstore7/components/hexisstore7/hexisstore7.component';
 
 @NgModule({
   declarations: [
@@ -158,7 +159,8 @@ import { Hcf4Component } from './hcf4/components/hcf4/hcf4.component';
     Hcf1Component,
     Hcf2Component,
     Hcf3Component,
-    Hcf4Component
+    Hcf4Component,
+    Hexisstore7Component
    
   ],
   imports: [

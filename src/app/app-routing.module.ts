@@ -72,6 +72,10 @@ const routes: Routes = [
     loadChildren: () => import('./hexisstore6/hexisstore6.module').then(m => m.Hexisstore6Module)
   },  
   {
+    path: 'hexisstore7',
+    loadChildren: () => import('./hexisstore7/hexisstore7.module').then(m => m.Hexisstore7Module)
+  },  
+  {
     path: 'cotizador',
     loadChildren: () => import('./cotizador/cotizador.module').then(m => m.CotizadorModule)
   }, 
