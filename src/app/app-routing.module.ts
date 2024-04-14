@@ -76,6 +76,10 @@ const routes: Routes = [
     loadChildren: () => import('./hexisstore7/hexisstore7.module').then(m => m.Hexisstore7Module)
   },  
   {
+    path: 'hexisstore8',
+    loadChildren: () => import('./hexisstore8/hexisstore8.module').then(m => m.Hexisstore8Module)
+  },  
+  {
     path: 'cotizador',
     loadChildren: () => import('./cotizador/cotizador.module').then(m => m.CotizadorModule)
   }, 
@@ -326,10 +330,63 @@ const routes: Routes = [
     path: 'HEX902',
     loadChildren: () => import('./hcri2/hcri2.module').then(m => m.Hcri2Module)
   }, 
+  {
+    path: 'CC01',
+    loadChildren: () => import('./ct01/ct01.module').then(m => m.Ct01Module)
+  }, 
+  {
+    path: 'CC02',
+    loadChildren: () => import('./ct02/ct02.module').then(m => m.Ct02Module)
+  }, 
+  {
+    path: 'CC03',
+    loadChildren: () => import('./ct03/ct03.module').then(m => m.Ct03Module)
+  }, 
 
+  {
+    path: 'CC04',
+    loadChildren: () => import('./ct04/ct04.module').then(m => m.Ct04Module)
+  }, 
 
+  {
+    path: 'CC05',
+    loadChildren: () => import('./ct05/ct05.module').then(m => m.Ct05Module)
+  }, 
+  
+  {
+    path: 'CC06',
+    loadChildren: () => import('./ct06/ct06.module').then(m => m.Ct06Module)
+  }, 
+  
+  {
+    path: 'CC07',
+    loadChildren: () => import('./ct07/ct07.module').then(m => m.Ct07Module)
+  }, 
+  
+  {
+    path: 'CC08',
+    loadChildren: () => import('./ct08/ct08.module').then(m => m.Ct08Module)
+  }, 
   
 
+  {
+    path: 'CC09',
+    loadChildren: () => import('./ct09/ct09.module').then(m => m.Ct09Module)
+  }, 
+
+  {
+    path: 'CC10',
+    loadChildren: () => import('./ct010/ct010.module').then(m => m.Ct010Module)
+  }, 
+
+  {
+    path: 'CC11',
+    loadChildren: () => import('./ct011/ct011.module').then(m => m.Ct011Module)
+  }, 
+  {
+    path: 'CC12',
+    loadChildren: () => import('./ct012/ct012.module').then(m => m.Ct012Module)
+  }, 
 
   {
     path: '',

@@ -81,6 +81,19 @@ import { Hcf2Component } from './hcf2/components/hcf2/hcf2.component';
 import { Hcf3Component } from './hcf3/components/hcf3/hcf3.component';
 import { Hcf4Component } from './hcf4/components/hcf4/hcf4.component';
 import { Hexisstore7Component } from './hexisstore7/components/hexisstore7/hexisstore7.component';
+import { Ct01Component } from './ct01/components/ct01/ct01.component';
+import { Ct02Component } from './ct02/components/ct02/ct02.component';
+import { Ct03Component } from './ct03/components/ct03/ct03.component';
+import { Ct04Component } from './ct04/components/ct04/ct04.component';
+import { Ct05Component } from './ct05/components/ct05/ct05.component';
+import { Ct06Component } from './ct06/components/ct06/ct06.component';
+import { Ct07Component } from './ct07/components/ct07/ct07.component';
+import { Ct08Component } from './ct08/components/ct08/ct08.component';
+import { Hexisstore8Component } from './hexisstore8/components/hexisstore8/hexisstore8.component';
+import { Ct09Component } from './ct09/components/ct09/ct09.component';
+import { Ct010Component } from './ct010/components/ct010/ct010.component';
+import { Ct011Component } from './ct011/components/ct011/ct011.component';
+import { Ct012Component } from './ct012/components/ct012/ct012.component';
 
 @NgModule({
   declarations: [
@@ -160,7 +173,20 @@ import { Hexisstore7Component } from './hexisstore7/components/hexisstore7/hexis
     Hcf2Component,
     Hcf3Component,
     Hcf4Component,
-    Hexisstore7Component
+    Hexisstore7Component,
+    Ct01Component,
+    Ct02Component,
+    Ct03Component,
+    Ct04Component,
+    Ct05Component,
+    Ct06Component,
+    Ct07Component,
+    Ct08Component,
+    Hexisstore8Component,
+    Ct09Component,
+    Ct010Component,
+    Ct011Component,
+    Ct012Component
    
   ],
   imports: [
